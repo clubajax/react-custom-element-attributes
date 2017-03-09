@@ -1,0 +1,26 @@
+{
+  "name": "react-custom-element-attributes",
+  "version": "0.0.9",
+  "description": "Allow data objects to be passed to custom elements as attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clubajax/react-custom-element-attributes.git"
+  },
+  "keywords": [
+    "react",
+    "web",
+    "components",
+    "custom",
+    "elements"
+  ],
+  "author": "Mike Wilcox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clubajax/react-custom-element-attributes/issues"
+  },
+  "homepage": "https://github.com/clubajax/react-custom-element-attributes#readme"
+}
