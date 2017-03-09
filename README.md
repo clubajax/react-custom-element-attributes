@@ -8,7 +8,7 @@ Allow data objects to be passed to custom elements as attributes.
     
 In your app code, as early as possible:
 ```jsx
-import('react-custom-element-attributes');
+import 'react-custom-element-attributes';
 ```
 ##Usage
 
