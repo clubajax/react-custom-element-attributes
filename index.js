@@ -6,6 +6,8 @@ DomPropertyOperations.setValueForAttribute = function (node, name, value) {
 		// custom element
 		if(typeof value === 'object'){
 			node[name] = value;
+		} else if (value === null){
+			node.removeAttribute(name);
 		}else{
 			node.setAttribute(name, value);
 		}
