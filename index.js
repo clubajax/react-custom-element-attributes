@@ -4,11 +4,11 @@ DomPropertyOperations._setValueForAttribute = DomPropertyOperations.setValueForA
 DomPropertyOperations.setValueForAttribute = function (node, name, value) {
 	if(node.localName.indexOf('-') > -1){
 		// custom element
-		if(typeof value === 'object'){
-			node[name] = value;
-		} else if (value === null){
+		if (value === null){
 			node.removeAttribute(name);
-		}else{
+		} else if(typeof value === 'object'){
+			node[name] = value;
+		} else{
 			node.setAttribute(name, value);
 		}
 		return;
