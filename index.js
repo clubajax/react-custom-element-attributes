@@ -1,4 +1,4 @@
-let DomPropertyOperations = require('react-dom/lib/DOMPropertyOperations');
+var DomPropertyOperations = require('react-dom/lib/DOMPropertyOperations');
 
 DomPropertyOperations._setValueForAttribute = DomPropertyOperations.setValueForAttribute;
 DomPropertyOperations.setValueForAttribute = function (node, name, value) {

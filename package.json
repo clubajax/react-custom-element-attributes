@@ -1,6 +1,6 @@
 {
   "name": "@clubajax/react-custom-element-attributes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allow data objects to be passed to custom elements as attributes",
   "main": "index.js",
   "scripts": {
